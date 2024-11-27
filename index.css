@@ -56,6 +56,34 @@ body, html {
   transition: background-color 0.3s ease;
 }
 
+/* CTA styling */ 
+.Calltoaction {
+  background-color: #159232; /* A fresh green shade */
+  width: 200px; 
+  height: 55px; 
+  font-size: 1.1em; 
+  font-weight: bold; 
+  text-align: center; 
+  line-height: 55px; 
+  border: none; 
+  border-radius: 12px; 
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s, transform 0.2s; /* Smooth animations */
+}
+
+.Calltoaction:hover {
+  background-color: #20c060; /* Slightly lighter green on hover */
+  transform: translateY(-3px); /* Adds a hover pop effect */
+}
+
+.Calltoaction:active {
+  transform: translateY(1px); /* Subtle push-down effect on click */
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2); /* Diminished shadow on click */
+}
+
+
+
 /* Header Navigation */
 .header-top {
   display: flex;

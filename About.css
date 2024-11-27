@@ -140,7 +140,7 @@ a:hover {
   padding: 20px 0;
   font-family: 'Georgia', serif;
   width: 100%; /* Ensure footer spans the full width */
-  position: relative; /* To handle full-width alignment */
+  position: absolute; 
   left: 0; /* Align the footer to the left edge */
 }
 
@@ -157,6 +157,7 @@ a:hover {
   line-height: 1.5;
   color: #ccc; /* Softer color for footer text */
   font-size: 0.9rem;
+  text-align: center;
 }
 
 .main-footer strong {
